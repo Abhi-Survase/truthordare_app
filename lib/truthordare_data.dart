@@ -7,79 +7,79 @@ class TodModel {
 
 const todData = [
   TodModel(
-    '1. If you could be invisible for a day, what’s the first thing you would do?',
-    '',
+    'If you could be invisible for a day, what’s the first thing you would do?',
+    'Try to juggle 3 things of the group\'s choice',
   ),
   TodModel(
-    '2. What’s the biggest secret you’ve kept from your parents?',
-    '',
+    'What’s the biggest secret you’ve kept from your parents?',
+    'Show the most embarrassing photo on your phone',
   ),
   TodModel(
-    '3. What’s the most embarrassing music you listen to?',
-    '',
+    'What’s the most embarrassing music you listen to?',
+    'Let the rest of the group DM someone from your Instagram account',
   ),
   TodModel(
-    '4. What’s one thing you love most about yourself?',
-    '',
+    'What’s one thing you love most about yourself?',
+    'Do 50 squats',
   ),
   TodModel(
-    '5. Who is your secret crush?',
-    '',
+    'Who is your secret crush?',
+    'Show us your screen time report',
   ),
   TodModel(
-    '6. Who is the last person you creeped on social media?',
-    '',
+    'Who is the last person you creeped on social media?',
+    'Keep three ice cubes in your mouth until they melt',
   ),
   TodModel(
-    '7. When was the last time you wet the bed?',
-    '',
+    'When was the last time you wet the bed?',
+    'Yell out a word given by a friend out of the window',
   ),
   TodModel(
-    '8. If a genie granted you three wishes, what would you ask for and why?',
-    '',
+    'If a genie granted you three wishes, what would you ask for and why?',
+    'Eat a snack without using your hands',
   ),
   TodModel(
-    '9. What’s your biggest regret?',
-    '',
+    'What’s your biggest regret?',
+    'Say two honest things about everyone else in the group',
   ),
   TodModel(
-    '10. If you had to only ever watch rom-coms or only watch scary movies for the rest of your life, which would you choose and why?',
-    '',
+    'If you had to only ever watch rom-coms or only watch scary movies for the rest of your life, which would you choose and why?',
+    'Hold your drink with two hands for next 3 rounds',
   ),
   TodModel(
-    '11. Where is the weirdest place you\'ve ever gone to the bathroom?',
-    '',
+    'Where is the weirdest place you\'ve ever gone to the bathroom?',
+    'Eat five spoonfuls of a condiment of your choice',
   ),
   TodModel(
-    '12. Have you ever ghosted on someone?',
-    '',
+    'Have you ever ghosted on someone?',
+    'Eat a raw piece of garlic',
   ),
   TodModel(
-    '13. Which player would survive a zombie apocalypse and which would be the first to go?',
-    '',
+    'Which player would survive a zombie apocalypse and which would be the first to go?',
+    'Give a lap dance to someone of your choice',
   ),
   TodModel(
-    '14. Reveal all the details of your first kiss.',
-    '',
+    'Reveal all the details of your first kiss.',
+    'Seductively eat a banana',
   ),
   TodModel(
-    '15. What excuse have you used before to get out plans?',
-    '',
+    'What excuse have you used before to get out plans?',
+    'Show your orgasm face',
   ),
   TodModel(
-    '16. What\'s the longest you\'ve ever slept?',
-    '',
+    'What\'s the longest you\'ve ever slept?',
+    'Do your best sexy crawl',
   ),
   TodModel(
-    '17. What\'s the shortest you\'ve ever slept?',
-    '',
+    'What\'s the shortest you\'ve ever slept?',
+    'Do your best celebrity impression',
   ),
   TodModel(
-    '18. Read the last text you sent your best friend or significant other out loud.',
-    '',
+    'Read the last text you sent your best friend or significant other out loud.',
+    'Let another person in the group touch up your makeup',
   ),
   TodModel(
-    '19. What\'s your biggest pet peeve?',
-    '',
+    'What\'s your biggest pet peeve?',
+    'Show the last five people you texted and what the messages said',
   ),
 ];

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:truth_or_dare_app/startscreen.dart';
-//import 'package:truth_or_dare_app/tod_screen.dart';
+import 'package:truth_or_dare_app/tod_qs_screen.dart';
 
 class TODApp extends StatefulWidget {
   const TODApp({super.key});
@@ -11,9 +11,26 @@ class TODApp extends StatefulWidget {
   }
 }
 
+const startScreen = 'start';
+const qsScreen = 'ques';
+
 class _TODApp extends State<TODApp> {
+  var activeScreen = startScreen;
+
+  void switchScreen() {
+    setState(() {
+      activeScreen = qsScreen;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
+    Widget displayScreen = TODStartscreen(switchScreen: switchScreen);
+
+    if (activeScreen == qsScreen) {
+      displayScreen = const TODQsScreen();
+    }
+
     return MaterialApp(
       home: Scaffold(
         body: Container(
@@ -24,7 +41,7 @@ class _TODApp extends State<TODApp> {
               fit: BoxFit.cover,
             ),
           ),
-          child: const TODStartscreen(),
+          child: displayScreen,
         ),
       ),
     );

@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:truth_or_dare_app/tod_screen.dart';
+import 'package:truth_or_dare_app/tod_qs_screen.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 const sc = TODQsScreen();
 
 class TODStartscreen extends StatelessWidget {
-  const TODStartscreen({super.key});
+  const TODStartscreen({super.key, required this.switchScreen});
+
+  final void Function() switchScreen;
 
   // This widget is the root of your application.
   @override
@@ -21,17 +24,18 @@ class TODStartscreen extends StatelessWidget {
               height: 300,
             ),
             //const SizedBox(height: 10),
-            TextButton.icon(
-              onPressed: () {},
-              icon: const Icon(Icons.flash_on_rounded,
-                  color: Colors.amber, size: 35),
-              label: const Text(
-                'Roll',
-                style: TextStyle(
-                    color: Colors.amber,
-                    fontSize: 25,
-                    fontWeight: FontWeight.bold),
-              ),
+            ElevatedButton.icon(
+              style: const ButtonStyle(
+                  backgroundColor: MaterialStatePropertyAll(Colors.black12)),
+              onPressed: switchScreen,
+              icon: const Icon(Icons.arrow_right_sharp,
+                  color: Colors.amber, size: 30),
+              label: Text('Start',
+                  style: GoogleFonts.josefinSans(
+                      height: 1.5,
+                      color: const Color.fromARGB(255, 249, 177, 8),
+                      fontSize: 23,
+                      fontWeight: FontWeight.bold)),
             ),
           ]),
     );
