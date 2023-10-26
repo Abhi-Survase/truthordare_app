@@ -14,30 +14,34 @@ class TODStartscreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          mainAxisSize: MainAxisSize.max,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            const Image(
-              image: AssetImage('assets/TODlogo.png'),
-              width: 300,
-              height: 300,
+        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.max,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          const Image(
+            image: AssetImage('assets/TODlogo.png'),
+            width: 300,
+            height: 300,
+          ),
+          //const SizedBox(height: 10),
+          ElevatedButton.icon(
+            style: const ButtonStyle(
+                backgroundColor: MaterialStatePropertyAll(Colors.black12)),
+            onPressed: switchScreen,
+            icon: const Icon(Icons.arrow_right_sharp,
+                color: Colors.amber, size: 30),
+            label: Text(
+              'Start',
+              style: GoogleFonts.urbanist(
+                  height: 2.1,
+                  color: const Color.fromARGB(255, 249, 177, 8),
+                  fontSize: 25,
+                  letterSpacing: 1.3,
+                  fontWeight: FontWeight.w600),
             ),
-            //const SizedBox(height: 10),
-            ElevatedButton.icon(
-              style: const ButtonStyle(
-                  backgroundColor: MaterialStatePropertyAll(Colors.black12)),
-              onPressed: switchScreen,
-              icon: const Icon(Icons.arrow_right_sharp,
-                  color: Colors.amber, size: 30),
-              label: Text('Start',
-                  style: GoogleFonts.josefinSans(
-                      height: 1.5,
-                      color: const Color.fromARGB(255, 249, 177, 8),
-                      fontSize: 23,
-                      fontWeight: FontWeight.bold)),
-            ),
-          ]),
+          ),
+        ],
+      ),
     );
   }
 }

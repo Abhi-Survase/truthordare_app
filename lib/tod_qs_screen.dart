@@ -29,13 +29,6 @@ class _TODQsScreen extends State<TODQsScreen> {
 
     return Container(
       margin: const EdgeInsets.all(25),
-      constraints: const BoxConstraints.expand(),
-      decoration: const BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage("assets/background.jpg"),
-          fit: BoxFit.cover,
-        ),
-      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisSize: MainAxisSize.max,
