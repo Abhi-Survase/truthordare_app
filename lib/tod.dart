@@ -32,6 +32,7 @@ class _TODApp extends State<TODApp> {
     }
 
     return MaterialApp(
+      theme: ThemeData(useMaterial3: true),
       home: Scaffold(
         body: Container(
           constraints: const BoxConstraints.expand(),
