@@ -1,7 +1,7 @@
 # Truth or Dare App
 
-A simple app flutter app that uses local datalist to display truth or dare statements.
+A simple app flutter app that uses local datalist to display Truth or Dare statements.
 
 ### Expected on platforms:
-* Web (very early build [here](https://abhi-survase.github.io/TruthorDareApp/))
-* Android (ETA: unknown)
+* Web  build [here.](https://abhi-survase.github.io/TruthorDareApp/)
+* Android app ~~(ETA: unknown)~~ find in releases section.
